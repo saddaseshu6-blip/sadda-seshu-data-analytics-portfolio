@@ -58,4 +58,13 @@ export const skills=[
  {mark:'BI',title:'Visualize & communicate',tools:'Power BI · Tableau',detail:'KPI cards, calculated fields, interactive dashboards and trend reporting.'},
  {mark:'AI',title:'Keep learning',tools:'Python · R · ChatGPT',detail:'Programming knowledge and AI-assisted tools, alongside independent analysis and source checks.'},
 ];
+export const orbitTools=[
+ {name:'SQL / MySQL',icon:'database'},
+ {name:'Microsoft Excel',icon:'table'},
+ {name:'Power BI',icon:'barChart'},
+ {name:'Tableau',icon:'dashboard'},
+ {name:'Python',icon:'code'},
+ {name:'R',icon:'sigma'},
+ {name:'ChatGPT',icon:'sparkles'},
+];
 export const filterProjects=(tool)=>tool==='All'?projects:projects.filter(p=>p.tools.includes(tool));
