@@ -23,6 +23,10 @@ npm run preview
 
 The `dist` directory contains the ready-to-host static production site. Upload its contents to a static web host. Serve over HTTP/HTTPS; do not double-click index.html with a file:// URL. The relative Vite base supports deployment under a subfolder.
 
+## Deploy to GitHub Pages
+
+Pushing to `main` builds the site and deploys the generated `dist` directory with GitHub Actions. In the repository's **Settings → Pages**, set the build and deployment source to **GitHub Actions** if it is not already selected. The published URL appears in the workflow run and the repository's Pages settings.
+
 ## Customize
 
 - `src/profile.js`: profile, education, skills, and project descriptions.
