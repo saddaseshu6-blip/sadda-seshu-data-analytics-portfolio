@@ -56,7 +56,7 @@ These screenshots were captured from the production build at desktop, tablet, an
 - Full-bleed monochrome portrait hero with layered, glass-style project callouts.
 - Animated orbit for SQL/MySQL, Microsoft Excel, Power BI, Tableau, Python, and R, arranged around a stationary center.
 - Pause control and reduced-motion support for animation.
-- Six interactive case studies, technology filters, project galleries, and a profile FAQ.
+- Six interactive case studies, technology filters, project galleries, direct GitHub repository links, and a profile FAQ.
 - Responsive layouts, accessible navigation, keyboard-friendly dialogs, and downloadable PDF and Word résumés.
 - No backend, API keys, analytics, or external image/font requests.
 
