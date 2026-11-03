@@ -3,7 +3,6 @@ import {
   ChartNoAxesCombined,
   Code2,
   Database,
-  Sparkles,
   Sigma,
   Table2,
 } from "lucide-react";
@@ -16,7 +15,6 @@ const icons = {
   dashboard: ChartNoAxesCombined,
   code: Code2,
   sigma: Sigma,
-  sparkles: Sparkles,
 };
 
 export default function SkillsOrbit() {
@@ -27,7 +25,7 @@ export default function SkillsOrbit() {
           <span /> THE TOOLKIT / ALWAYS IN MOTION
         </p>
         <h2 id="toolkit-heading">
-          Seven tools.
+          Six core tools.
           <br />
           <em>One curious mind.</em>
         </h2>
@@ -40,7 +38,7 @@ export default function SkillsOrbit() {
         <div className="tool-orbit-halo" aria-hidden="true" />
         <div className="tool-orbit-ring tool-orbit-ring--outer" aria-hidden="true" />
         <div className="tool-orbit-ring tool-orbit-ring--inner" aria-hidden="true" />
-        <div className="tool-orbit-wheel" role="list" aria-label="Seven analytics tools orbiting the workflow">
+        <div className="tool-orbit-wheel" role="list" aria-label="Six analytics tools orbiting a stationary center">
           {orbitTools.map((tool, index) => {
             const angle = (index / orbitTools.length) * Math.PI * 2 - Math.PI / 2;
             const Icon = icons[tool.icon];
@@ -65,7 +63,7 @@ export default function SkillsOrbit() {
         <div className="tool-orbit-core" aria-hidden="true">
           <span className="tool-orbit-core-mark">SS</span>
           <strong>DATA<br />ANALYTICS</strong>
-          <small>ONE WORKFLOW · 07 TOOLS</small>
+          <small>ONE WORKFLOW · 06 TOOLS</small>
         </div>
         <span className="tool-orbit-caption" aria-hidden="true">
           QUERY <i /> PREPARE <i /> EXPLAIN

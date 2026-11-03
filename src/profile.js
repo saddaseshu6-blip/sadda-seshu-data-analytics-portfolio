@@ -3,9 +3,9 @@ export const profile = {
  github: 'https://github.com/saddaseshu6-blip', linkedin: 'https://www.linkedin.com/in/sadda-seshu-b45193376',
  summary: 'A 2026 Mechanical Engineering graduate building a career in data analysis. I work with SQL, Excel, Power BI and Tableau to explore datasets, answer practical questions and turn findings into dashboards people can use.',
  education: [
-  {year:'2026',title:'B.Tech · Mechanical Engineering',school:'PVKK Institute of Technology, Anantapur',score:'7.8'},
+  {year:'2026',title:'B.Tech · Mechanical Engineering',school:'PVKK Institute of Technology, Anantapur',score:'7.6'},
   {year:'2022',title:'Diploma',school:'Government Polytechnic College, Sathyavedu',score:'6.5'},
-  {year:'2019',title:'Secondary School Certificate',school:'Priyadarsini Vidyamandir High School',score:'8.5'},
+  {year:'2019',title:'Secondary School Education',school:'Priyadarsini Vidyamandir High School',score:'8.8'},
  ],
 };
 export const projects = [
@@ -65,6 +65,5 @@ export const orbitTools=[
  {name:'Tableau',icon:'dashboard'},
  {name:'Python',icon:'code'},
  {name:'R',icon:'sigma'},
- {name:'ChatGPT',icon:'sparkles'},
 ];
 export const filterProjects=(tool)=>tool==='All'?projects:projects.filter(p=>p.tools.includes(tool));

@@ -258,7 +258,7 @@
     inset 0 1px 2px rgb(255 255 255 / 18%),
     inset 0 -12px 28px rgb(0 0 0 / 36%);
   text-align: center;
-  transform: translate(-50%, -50%) rotateX(9deg);
+  transform: rotateX(9deg);
   transform-style: preserve-3d;
 }
 
